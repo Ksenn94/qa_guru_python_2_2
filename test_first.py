@@ -10,5 +10,5 @@ def open_browser():
 
 def test_first(open_browser):
     browser.element('[name="q"]').should(be.blank).type('selene').press_enter()
-    browser.element('[id="search"]').should(have.text('Selene - Wikipedia'))
+    browser.element('[id="search"]').should(have.text('Selene - Woikipedia'))
     print(open_browser)
